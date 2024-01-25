@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Home = () => {
   return (
     <Wrapper className="test">
-      <h1>Welcome to Our Store</h1>
+      <h1>Home Page</h1>
     </Wrapper>
   );
 };
