@@ -12,7 +12,7 @@ const HeroSection = ({ myData }) => {
           <div className="hero-section-data">
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
-            <p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi nemo quo totam id tempore sunt temporibus sequi nostrum fuga officia amet, voluptatum deserunt ratione, alias fugit delectus porro, ea tenetur sed iste. Quod, illum obcaecati recusandae tenetur minima consectetur! Voluptas, nulla temporibus assumenda consectetur cupiditate delectus! Quia porro nesciunt facilis unde quis illum, beatae fugit necessitatibus blanditiis eius consequatur, quae mollitia accusamus nobis molestiae. Aperiam optio assumenda maxime sapiente libero deleniti, fugiat sit, quia unde quibusdam nobis excepturi repellat aspernatur ipsam voluptatem iure possimus. Repellendus, natus ratione. Necessitatibus quasi facere possimus, vel adipisci excepturi minima dicta mollitia assumenda. Voluptatibus, fugiat!</p></p>
+            <p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi nemo quo totam id tempore sunt temporibus sequi nostrum fuga officia amet, voluptatum deserunt ratione, alias fugit delectus porro, ea tenetur sed iste. Quod, illum obcaecati recusandae tenetur minima consectetur! Voluptas, nulla temporibus assumenda consectetur cupiditate delectus! Quia porro nesciunt facilis unde quis illum, beatae fugit necessitatibus blanditiis eius consequatur, quae mollitia accusamus nobis molestiae!</p></p>
             <NavLink>
               <Button>show now</Button>
             </NavLink>
@@ -21,7 +21,7 @@ const HeroSection = ({ myData }) => {
           <div className="hero-section-image">
             <figure>
               <img
-                src="ecommerce/images/hero.jpg"
+                src="/images/hero.jpg"
                 alt="hero-section-photo"
                 className="img-style"
               />
