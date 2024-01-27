@@ -12,8 +12,17 @@ const HeroSection = ({ myData }) => {
           <div className="hero-section-data">
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
-            <p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi nemo quo totam id tempore sunt temporibus sequi nostrum fuga officia amet, voluptatum deserunt ratione, alias fugit delectus porro, ea tenetur sed iste. Quod, illum obcaecati recusandae tenetur minima consectetur! Voluptas, nulla temporibus assumenda consectetur cupiditate delectus! Quia porro nesciunt facilis unde quis illum, beatae fugit necessitatibus blanditiis eius consequatur, quae mollitia accusamus nobis molestiae!</p></p>
-            <NavLink>
+            <p>
+              {" "}
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Excepturi nemo quo totam id tempore sunt temporibus sequi
+                nostrum fuga officia amet, voluptatum deserunt ratione, alias
+                fugit delectus porro, ea tenetur sed iste. Quod, illum obcaecati
+                recusandae tenetur minima consectetur!
+              </p>
+            </p>
+            <NavLink to={"/products"}>
               <Button>show now</Button>
             </NavLink>
           </div>
@@ -21,7 +30,7 @@ const HeroSection = ({ myData }) => {
           <div className="hero-section-image">
             <figure>
               <img
-                src="/images/hero.jpg"
+                src="/images/home.jpg"
                 alt="hero-section-photo"
                 className="img-style"
               />
@@ -44,8 +53,6 @@ const Wrapper = styled.section`
   .hero-section-data {
     p {
       margin: 2rem 0;
-      text-align: justify;
-
     }
 
     h1 {
@@ -65,20 +72,7 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
   }
-  figure {
-    position: relative;
 
-    &::after {
-      content: "";
-      width: 60%;
-      height: 80%;
-      background-color: rgba(81, 56, 238, 0.4);
-      position: absolute;
-      left: 50%;
-      top: -5rem;
-      z-index: -1;
-    }
-  }
   .img-style {
     width: 100%;
     height: auto;

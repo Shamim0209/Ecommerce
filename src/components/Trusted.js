@@ -8,18 +8,18 @@ const Trusted = () => {
         <div className="brand-section-slider">
           <div className="slide">
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg"
+              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image2.png"
               alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
+              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image3.png"
               alt="trusted-brands"
             />
           </div>
-         
-          <div className="slide">  
+
+          <div className="slide">
             <img
               src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image4.png"
               alt="trusted-brands"
