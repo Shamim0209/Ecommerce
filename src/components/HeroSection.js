@@ -12,15 +12,19 @@ const HeroSection = ({ myData }) => {
           <div className="hero-section-data">
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
-            <p>
-              {" "}
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Excepturi nemo quo totam id tempore sunt temporibus sequi
-                nostrum fuga officia amet, voluptatum deserunt ratione, alias
-                fugit delectus porro, ea tenetur sed iste. Quod, illum obcaecati
-                recusandae tenetur minima consectetur!
-              </p>
+
+            <p className="web-bio">
+              Welcome to Our E-commerce Web , where shopping meets convenience
+              and style! Here we curate a seamless online shopping experience
+              tailored just for you. Dive into a world of endless possibilities
+              as you explore our vast collection of high-quality products, from
+              fashion-forward apparel to cutting-edge electronics. With our
+              user-friendly interface and secure transactions, shopping has
+              never been this effortless. Discover the latest trends, exclusive
+              deals, and personalized recommendations, all at your fingertips.
+              Elevate your lifestyle with with us, your go-to destination for
+              all things fabulous and functional. Shop smart, shop stylish –
+              because you deserve the best.
             </p>
             <NavLink to={"/products"}>
               <Button>show now</Button>
@@ -64,7 +68,9 @@ const Wrapper = styled.section`
       margin-bottom: 0;
     }
   }
-
+  .web-bio {
+    text-align: justify;
+  }
   .hero-section-image {
     width: 100%;
     height: auto;

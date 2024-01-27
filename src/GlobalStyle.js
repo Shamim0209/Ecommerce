@@ -156,6 +156,15 @@ input, textarea{
     font-size: 1.8rem;
     cursor: pointer;
     }
+.not-available {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8d7da; 
+  border: 1px solid #dc3545; 
+  color: #721c24; 
+  border-radius: 5px; 
+  margin: 20px;
+}   
 
 @media (max-width: ${({ theme }) => theme.media.tab}) {
     .container {

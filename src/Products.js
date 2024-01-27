@@ -1,10 +1,13 @@
-import React from "react";
-
+import { GlobalStyle } from "./GlobalStyle";
 const Products = () => {
   return (
-    <div>
-      <h1>This is the Prouduct Page</h1>
-    </div>
+    <>
+      <GlobalStyle />
+
+      <div className="not-available">
+        <h3>Currently Not Available... We are Working on it... Stay Tuned</h3>
+      </div>
+    </>
   );
 };
 
