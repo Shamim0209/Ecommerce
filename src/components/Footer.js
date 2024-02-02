@@ -40,7 +40,7 @@ const Footer = () => {
             <div className="footer-social">
               <h3>Follow Us</h3>
               <div className="footer-social--icons">
-                <div>
+                <div className="ln">
                   <a
                     href="https://www.linkedin.com/in/shamim-akram-121b00240/"
                     target="_blank"
@@ -48,12 +48,12 @@ const Footer = () => {
                     <FaLinkedin className="icons" />
                   </a>
                 </div>
-                <div>
+                <div className="git">
                   <a href="https://github.com/Shamim0209" target="_blank">
-                    <FaGithub className="icons" />
+                    <FaGithub className="icons " />
                   </a>
                 </div>
-                <div>
+                <div className="fb">
                   <a
                     href="https://www.facebook.com/meshamim800/"
                     target="_blank"
@@ -130,8 +130,19 @@ const Wrapper = styled.section`
           position: relative;
           cursor: pointer;
         }
+     
       }
+     
     }
+    .ln:hover{
+        background-color: #0A66C2;
+      }
+    .git:hover{
+        background-color: #181717;
+      }
+    .fb:hover{
+        background-color:  #1877f2;
+      }
   }
 
   .footer-bottom--section {

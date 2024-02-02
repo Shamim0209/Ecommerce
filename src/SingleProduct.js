@@ -9,6 +9,7 @@ import FormatPrice from "./Helpers/FormatPrice";
 import { MdSecurity } from "react-icons/md";
 import { TbTruckDelivery, TbReplace } from "react-icons/tb";
 import Star from "./components/Star";
+import AddToCart from "./components/AddToCart";
 
 const API = "https://api.pujakaitem.com/api/products";
 
@@ -75,6 +76,8 @@ const SingleProduct = () => {
                 <p>30 Days Replacement</p>
               </div>
 
+          
+
               <div className="product-warranty-data">
                 <MdSecurity className="warranty-icon" />
                 <p>2 Year Warranty </p>
@@ -86,11 +89,13 @@ const SingleProduct = () => {
                 Available:
                 <span> {stock > 0 ? "In Stock" : "Not Available"}</span>
               </p>
-
+            
               <p>
                 Brand :<span> {company} </span>
               </p>
             </div>
+            <hr />
+            {stock > 0 && <AddToCart product={singleProduct} />}
           </div>
         </div>
       </Container>
