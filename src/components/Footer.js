@@ -32,9 +32,9 @@ const Footer = () => {
             <div className="footer-subscribe">
               <h3>Subscribe to get important updates</h3>
               <form action="#">
-                <input type="email" name="email" placeholder="YOUR E-MAIL" />
+                <input type="email" name="email" placeholder="YOUR E-MAIL" required/>
 
-                <input type="submit" value="subscribe" />
+                <input type="submit" value="subscribe" required />
               </form>
             </div>
             <div className="footer-social">
