@@ -80,7 +80,7 @@ const Wrapper = styled.section`
   .sort-selection .sort-selection--style {
     padding: 0.5rem;
     cursor: pointer;
-
+ 
     .sort-select--option {
       padding: 0.5rem 0;
       cursor: pointer;
